@@ -2160,7 +2160,7 @@ define Device/linksys_ea7300-v2
   DEVICE_MODEL := EA7300
   DEVICE_VARIANT := v2
   LINKSYS_HWNAME := EA7300v2
-  DEVICE_PACKAGES += kmod-mt7603
+  DEVICE_PACKAGES := kmod-mt7603 kmod-mt7615e kmod-mt7615-firmware
 endef
 TARGET_DEVICES += linksys_ea7300-v2
 
